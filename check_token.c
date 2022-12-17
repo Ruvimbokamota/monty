@@ -55,7 +55,7 @@ void chkpush(char *token, char *line_buf, FILE *fp, stack_t *stack, int line)
 {
 	int i = 0;
 
-	if (token != NULL)\
+	if (token != NULL)
 	{
 		while (token[i] != '\0')
 		{
